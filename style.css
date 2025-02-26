@@ -1,0 +1,135 @@
+html {
+  width: 100%;
+
+  top: 0;
+  left: 0;
+}
+
+a {
+  cursor: pointer;
+}
+
+.row {
+    position: fixed;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    gap: 43%;
+
+    width: 100%;
+    height: fit-content;
+    
+    top: 0;
+    left: 0;
+
+    z-index: 3;
+    background-color: #ffe15c;
+
+    vertical-align: baseline;
+  }
+
+.row.logo {
+    padding-left: 30px;
+    float: left;
+}
+
+.navbar {
+    /* display: inline; */
+    overflow: hidden;
+}
+
+.navbar a {
+    float: right;
+    display: inline;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+
+.space {
+  background-color: white;
+  width: 100%;
+  height: 50px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+
+  top: 0;
+  left: 0;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  position: relative;
+
+  width: 100%;
+  top: auto;
+  left: -8px;
+
+  padding: 10px;
+  text-align: center;
+  background: #2e4db3;
+  color: white;
+
+  font-size: 20px;
+}
+
+.title {
+  padding: 10px;
+}
+
+.title div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.title h3 {
+  float: right;
+}
+
+.week_work {
+  padding: 30px;
+}
+
+.week_work button {
+  font-size: 20px;
+  padding: 10px;
+
+  cursor: pointer;
+
+  border-radius: 7px;
+  border: none;
+  background-color: #ffe15c;
+  color: #2e4db3;
+
+  transition: 0.3s;
+}
+
+.week_work button:hover {
+  background-color: #2e4db3;
+  color: #ffe15c;
+}
+
+.work {
+  justify-content: center;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 20px 20px;
+}
+
+.divider {
+  width: 80%;
+  height: 3px;
+
+  justify-self: center;
+  background-color: #2e4db3;
+}
